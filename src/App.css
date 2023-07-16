@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.App{
+    background-color:#B1D9DB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+   
+}
+#left-half-text{
+    font-size: 22px;
+    width:309px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 400;
+    margin-left: 50px;
+    padding-top: 100px;
+}
+
+
+.form-div{
+    background-color: white;
+    height: 100vh;
+    width: 70vw;
+    border-radius: 40px 0px 0px 40px;
+    padding: 10%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row-1{
+    margin-top: 30px;
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+}
+.heading-1{
+    font-family: 'Poppins', sans-serif;
+
+}
+.signup-div{
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    width: 190px;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.or{
+    font-size: 18px;
+    color: #909090;
+    width: 60%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form>input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #EAEAEA;
+    margin-top: 40px;
+    line-height: 24.5px;
+}
+
+::placeholder{
+    font-size: 15px;
+    color: #A0A0A0;
+    padding-left: 10px;
+}
+
+input:focus{
+    border-bottom: 2px solid #7CD2D7;
+    outline: none;
+}
+form>button{
+    background-color: #7CD2D7;
+    color: white;
+    border-radius: 9px;
+    width: 90%;
+    margin-inline:auto ;
+    border: none;
+    padding: 10px;
+    margin-top: 40px;
+}
+.red{
+    width: 60%;
+    list-style: none;
+    text-align: center;
+    font-size: 15px;
+    color: #FE597B;
+    margin-top: 10px;
+}
+
+.green{
+    width: 60%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+    color: #7CD2D7;
+}
+
+.graphic{
+    position: absolute;
+    z-index: 100;
+    width: 45vw;
+    /* height: 50vh; */
+   margin-top: 150px;
+    margin-left: 10%;
+    transform: rotate(-5deg);
+}
